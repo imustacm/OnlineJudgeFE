@@ -1,6 +1,6 @@
-# element_learn
+# IMUSTACMFE
 
-> A Vue.js project
+> IMUSTACM front-end project
 
 ## Build Setup
 
