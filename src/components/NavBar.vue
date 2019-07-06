@@ -11,7 +11,8 @@
           <MenuItem>
             <ElImage :src="url" lazy style="height:36px;width:306px;line-height:40px;"></ELImage>
           </MenuItem>
-          <MenuItem index="/">首页</MenuItem>
+          <MenuItem index="topic">table</MenuItem>
+          <!-- <MenuItem index="/">首页</MenuItem> -->
           <Submenu index="#1">
               <template slot="title">IMUSTOJ</template>
               <MenuItem index="problem" >题目列表</MenuItem>

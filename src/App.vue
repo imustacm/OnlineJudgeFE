@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import {Container, Header, Main, Footer} from 'element-ui'
+import {Container, Header, Main, Footer,Table} from 'element-ui'
 import NavBar from '@/components/NavBar'
 import Copyright from '@/components/Copyright'
 export default {
