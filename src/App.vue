@@ -1,25 +1,25 @@
 <template>
   <div id="app">
-    <Container   direction="vertical">
+    <Container direction="vertical">
       <Header>
         <NavBar></NavBar>
       </Header>
       <Main>
-          <router-view />
+        <router-view />
       </Main>
       <Footer>
-          <Copyright></Copyright>
+        <Copyright></Copyright>
       </Footer>
     </Container>
   </div>
 </template>
 
 <script>
-import {Container, Header, Main, Footer,Table} from 'element-ui'
-import NavBar from '@/components/NavBar'
-import Copyright from '@/components/Copyright'
+import { Container, Header, Main, Footer, Table } from "element-ui";
+import NavBar from "@/components/NavBar";
+import Copyright from "@/components/Copyright";
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Container,
     Header,
@@ -28,29 +28,24 @@ export default {
     NavBar,
     Copyright
   }
-}
+};
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
-body{
+body {
   margin: 0;
+  font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB",
+    "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
 }
-.el-header{
+.el-header {
   margin: 0;
   padding: 0;
 }
-.el-main{
+.el-main {
   margin: 0;
   padding: 0;
 }
-.el-footer{
+.el-footer {
   margin: 0;
   padding: 0;
 }
