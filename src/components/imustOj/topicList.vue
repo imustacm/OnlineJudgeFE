@@ -1,13 +1,11 @@
 <template>
   <el-row :gutter="0">
-    <!-- <el-col :span="18"> -->
-      <el-col :span="18" class="custom-card">
-        <el-card shadow="never">
-          <customElTable :tableData="tableData"></customElTable>
-          <customPaging :total="tableListTotal"></customPaging>
-        </el-card>
-      </el-col>
-    <!-- </el-col> -->
+    <el-col :span="18" class="custom-card">
+      <el-card shadow="never">
+        <customElTable :tableData="tableData"></customElTable>
+        <customPaging :total="tableListTotal"></customPaging>
+      </el-card>
+    </el-col>
     <el-col :span="6">
       <!-- 热门题目 -->
       <el-card class="margin-bottom" shadow="never">
@@ -347,9 +345,9 @@ export default {
 }
 /* table列表 */
 .custom-card {
-	padding-right:5px;
+  padding-right: 5px;
 }
 .custom-card .el-card__body {
-	padding: 0 20px;
+  padding: 0 20px;
 }
 </style>
