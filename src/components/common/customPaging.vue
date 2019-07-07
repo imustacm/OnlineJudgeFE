@@ -14,7 +14,11 @@
 </template>
 
 <script>
+import { Pagination } from "element-ui";
 export default {
+  components:{
+    'el-pagination':Pagination
+  },
   props: {
     total: {
       type: Number,

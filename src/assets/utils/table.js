@@ -8,11 +8,11 @@ import Vue from 'vue'
 let thead = {
     // 题目列表
     topicList: [
-        { fixed: true, prop: 'topic_id', label: '题目编号', width: '150' },
-        { fixed: false, prop: 'topic_name', label: '题目名称', width: '150' },
-        { fixed: false, prop: 'correct', label: '正确', width: '120' },
-        { fixed: false, prop: 'submit', label: '提交', width: '120' },
-        { fixed: false, prop: 'accuracy', label: '正确率', width: '120' }
+        { fixed: true, prop: 'topic_id', label: '题目编号', width: '210' },
+        { fixed: false, prop: 'topic_name', label: '题目名称', width: '300' },
+        { fixed: false, prop: 'correct', label: '正确', width: '210' },
+        { fixed: false, prop: 'submit', label: '提交', width: '210' },
+        { fixed: false, prop: 'accuracy', label: '正确率', width: '210' }
     ],
     // 成就排名
 }
