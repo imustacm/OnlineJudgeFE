@@ -34,9 +34,10 @@
           <MenuItem index="#12">文件下载</MenuItem>
           <Submenu index="#13">
               <template slot="title">关于我们</template>
-              <MenuItem index="#14">协会简介</MenuItem>
+              <MenuItem index="AssociationIntroduction">协会简介</MenuItem>
               <MenuItem index="#15">荣誉展廊</MenuItem>
-              <MenuItem index="#16">历届会长</MenuItem>
+              <MenuItem index="TeamHead">历届会长</MenuItem>
+              <MenuItem index="#21">开发团队</MenuItem>
               <MenuItem index="#17">联系我们</MenuItem>
           </Submenu>
           <MenuItem index="#18">寄语ACM</MenuItem>

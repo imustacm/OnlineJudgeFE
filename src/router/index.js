@@ -4,6 +4,8 @@ import HelloWorld from '@/components/HelloWorld'
 import Problem from '@/components/Problem'
 import customTable from '@/components/common/customForm'
 import TopicList from '@/components/imustOj/topicList'
+import AssociationIntroduction from "@/components/AssociationIntroduction"
+import TeamHead from '@/components/TeamHead'
 
 Vue.use(Router)
 
@@ -23,6 +25,16 @@ export default new Router({
       path: '/topic',
       name: 'topic',
       component: TopicList
+    },
+    {
+      path: '/AssociationIntroduction',
+      name: 'AssociationIntroduction',
+      component: AssociationIntroduction
+    },
+    {
+      path: '/TeamHead',
+      name: 'TeamHead',
+      component: TeamHead
     }
   ]
 })
