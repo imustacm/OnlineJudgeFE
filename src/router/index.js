@@ -5,6 +5,9 @@ import Problem from '@/components/Problem'
 import TopicList from '@/components/imustOj/topicList'
 import Solution from '@/components/imustOj/solutionList'
 
+import AssociationIntroduction from "@/components/AssociationIntroduction"
+import TeamHead from '@/components/TeamHead'
+
 Vue.use(Router)
 
 export default new Router({
@@ -25,9 +28,20 @@ export default new Router({
       component: TopicList
     },
     {
+
       path: '/solution',
       name: 'solution',
       component: Solution
+    },
+    {
+      path: '/AssociationIntroduction',
+      name: 'AssociationIntroduction',
+      component: AssociationIntroduction
+    },
+    {
+      path: '/TeamHead',
+      name: 'TeamHead',
+      component: TeamHead
     }
   ]
 })
