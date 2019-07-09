@@ -18,4 +18,35 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 第三方组件
+### Prism
+使用方法
+```
+<template>
+    <pre><code class="language-c">{{c_code}}</code></pre>
+</template>
+<script>
+import Prism from "prismjs";
+export default {
+    data(){
+        return {
+            c_code: `
+#include <stdio.h>
+int main()
+{
+    int a,b;
+    while(scanf("%d %d",&a,&b) != EOF)
+        printf("%d\\n",a+b);
+    return 0;
+}
+`
+        }
+    },
+    methods: {},
+    components: {},
+    mounted: function() {
+        Prism.highlightAll();
+    }
+}
+</script>
+```
