@@ -18,9 +18,28 @@
   "plugins": [
     "transform-vue-jsx",
     "transform-runtime",
-    ["component", 
-    { "libraryName": "element-ui", 
-      "styleLibraryName": "theme-chalk"
-    }]
+    [
+      "component",
+      {
+        "libraryName": "element-ui",
+        "styleLibraryName": "theme-chalk"
+      }
+    ],
+    [
+      "prismjs",
+      {
+        "languages": [
+          "c",
+          "cpp",
+          "java",
+          "python"
+        ],
+        "plugins": [
+          "line-numbers"
+        ],
+        "theme": "coy",
+        "css": true
+      }
+    ]
   ]
 }

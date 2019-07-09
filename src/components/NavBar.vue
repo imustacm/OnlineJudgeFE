@@ -23,7 +23,7 @@
                   <MenuItem index="#5">竞赛列表</MenuItem>
                   <MenuItem index="#6">实验平台</MenuItem>
               </Submenu>
-              <MenuItem index="#7">常见问答</MenuItem>
+              <MenuItem index="Faq">常见问答</MenuItem>
           </Submenu>
           <MenuItem index="#8" disabled>IMUSTCPC</MenuItem>
           <Submenu index="#9">

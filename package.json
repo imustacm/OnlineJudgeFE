@@ -12,7 +12,9 @@
   },
   "dependencies": {
     "babel-plugin-component": "^1.1.1",
+    "babel-plugin-prismjs": "^1.0.2",
     "element-ui": "^2.10.1",
+    "prismjs": "^1.16.0",
     "vue": "^2.5.2",
     "vue-infinite-scroll": "^2.0.2",
     "vue-router": "^3.0.1"

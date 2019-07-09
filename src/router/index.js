@@ -4,9 +4,9 @@ import HelloWorld from '@/components/HelloWorld'
 import Problem from '@/components/Problem'
 import TopicList from '@/components/imustOj/topicList'
 import Solution from '@/components/imustOj/solutionList'
-
 import AssociationIntroduction from "@/components/AssociationIntroduction"
 import TeamHead from '@/components/TeamHead'
+import Faq from '@/components/Faq'
 
 Vue.use(Router)
 
@@ -42,6 +42,11 @@ export default new Router({
       path: '/TeamHead',
       name: 'TeamHead',
       component: TeamHead
+    },
+    {
+      path: '/Faq',
+      name: 'Faq',
+      component: Faq
     }
   ]
 })
