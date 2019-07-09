@@ -62,15 +62,15 @@
           </p>
           <p>为了方便解释，下面给出的是1005题的参考答案：</p>
           <h4>C</h4>
-          <pre style="font-size:14px;"><code class="language-c">{{c_code}}</code></pre>
+          <pre><code class="language-c" v-text="c_code"></code></pre>
           <h4>C++</h4>
-          <pre style="font-size:14px;"><code class="language-cpp">{{cpp_code}}</code></pre>
+          <pre><code class="language-cpp">{{cpp_code}}</code></pre>
           <h4>Java</h4>
-          <pre style="font-size:14px;"><code class="language-java">{{java_code}}</code></pre>
+          <pre><code class="language-java">{{java_code}}</code></pre>
           <h4>Python2</h4>
-          <pre style="font-size:14px;"><code class="language-python">{{py2_code}}</code></pre>
+          <pre><code class="language-python">{{py2_code}}</code></pre>
           <h4>Python3</h4>
-          <pre style="font-size:14px;"><code class="language-python">{{py3_code}}</code></pre>
+          <pre><code class="language-python">{{py3_code}}</code></pre>
         </div>
       </div>
       <el-divider></el-divider>
@@ -254,7 +254,7 @@ int main()
 {
     int a,b;
     while(scanf("%d %d",&a,&b) != EOF)
-        printf("%d\\n",a+b);
+        printf("%d\n",a+b);
     return 0;
 }`,
       cpp_code: `
