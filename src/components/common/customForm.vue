@@ -13,6 +13,7 @@
       :prop="item.prop"
       :label="item.label"
       :width="item.width"
+      align="center"
     ></el-table-column>
     <el-table-column fixed="right" label="操作" width="120" v-if="0">
       <template slot-scope="scope">

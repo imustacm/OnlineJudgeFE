@@ -4,6 +4,9 @@ import HelloWorld from '@/components/HelloWorld'
 import Problem from '@/components/Problem'
 import TopicList from '@/components/imustOj/topicList'
 import Solution from '@/components/imustOj/solutionList'
+import RankList from '@/components/imustOj/rankList'
+import ContestList from '@/components/imustOj/contestList'
+import ExperimentList from '@/components/imustOj/experimentList'
 import AssociationIntroduction from "@/components/AssociationIntroduction"
 import TeamHead from '@/components/TeamHead'
 import Faq from '@/components/Faq'
@@ -32,6 +35,21 @@ export default new Router({
       path: '/solution',
       name: 'solution',
       component: Solution
+    },
+    {
+      path: '/rankList',
+      name: 'rankList',
+      component: RankList
+    },
+    {
+      path: '/contestList',
+      name: 'contestList',
+      component: ContestList
+    },
+    {
+      path: '/experimentList',
+      name: 'experimentList',
+      component: ExperimentList
     },
     {
       path: '/AssociationIntroduction',

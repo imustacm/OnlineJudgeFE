@@ -17,11 +17,11 @@
               <template slot="title">IMUSTOJ</template>
               <MenuItem index="problem" >题目列表</MenuItem>
               <MenuItem index="solution">评判状态</MenuItem>
-              <MenuItem index="#3">解题排名</MenuItem>
+              <MenuItem index="rankList">解题排名</MenuItem>
               <Submenu index="#4">
                   <template slot="title">竞赛中心</template>
-                  <MenuItem index="#5">竞赛列表</MenuItem>
-                  <MenuItem index="#6">实验平台</MenuItem>
+                  <MenuItem index="contestList">竞赛列表</MenuItem>
+                  <MenuItem index="experimentList">实验平台</MenuItem>
               </Submenu>
               <MenuItem index="Faq">常见问答</MenuItem>
           </Submenu>
