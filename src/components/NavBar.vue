@@ -16,7 +16,7 @@
           <Submenu index="#1">
               <template slot="title">IMUSTOJ</template>
               <MenuItem index="problem" >题目列表</MenuItem>
-              <MenuItem index="#2">评判状态</MenuItem>
+              <MenuItem index="solution">评判状态</MenuItem>
               <MenuItem index="#3">解题排名</MenuItem>
               <Submenu index="#4">
                   <template slot="title">竞赛中心</template>

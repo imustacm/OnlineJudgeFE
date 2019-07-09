@@ -7,7 +7,6 @@ import router from './router'
 import 'element-ui/lib/theme-chalk/index.css';
 
 import './assets/utils/table'
-import './assets/utils/element-vue'
 
 Vue.config.productionTip = false
 /* eslint-disable no-new */

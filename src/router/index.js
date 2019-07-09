@@ -2,8 +2,9 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Problem from '@/components/Problem'
-import customTable from '@/components/common/customForm'
 import TopicList from '@/components/imustOj/topicList'
+import Solution from '@/components/imustOj/solutionList'
+
 import AssociationIntroduction from "@/components/AssociationIntroduction"
 import TeamHead from '@/components/TeamHead'
 
@@ -25,6 +26,12 @@ export default new Router({
       path: '/topic',
       name: 'topic',
       component: TopicList
+    },
+    {
+
+      path: '/solution',
+      name: 'solution',
+      component: Solution
     },
     {
       path: '/AssociationIntroduction',
