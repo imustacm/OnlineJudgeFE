@@ -319,7 +319,7 @@ export default {
 }
 /* 设置card标题高度 */
 .el-card__header {
-  padding: 12px 0;
+  padding: 12px 20px;
 }
 /* 标签设置hover样式 */
 .el-tag--plain:hover {
