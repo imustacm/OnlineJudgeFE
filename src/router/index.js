@@ -14,6 +14,7 @@ import Faq from '@/components/Faq'
 Vue.use(Router)
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
