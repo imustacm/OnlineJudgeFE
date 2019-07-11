@@ -45,7 +45,8 @@ import {
   Card,
   Carousel,
   Row,
-  Col
+  Col,
+  CarouselItem
 } from "element-ui";
 export default {
   data() {
@@ -130,7 +131,8 @@ export default {
     "el-timeline-item": TimelineItem,
     "el-image": Image,
     "el-card": Card,
-    "el-carousel": Carousel
+    "el-carousel": Carousel,
+    "el-carousel-item": CarouselItem
   }
 };
 </script>
