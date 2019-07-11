@@ -40,6 +40,7 @@
               <MenuItem index="#21">开发团队</MenuItem>
               <MenuItem index="#17">联系我们</MenuItem>
           </Submenu>
+          <MenuItem index="Editer">编辑器测试页</MenuItem>
           <MenuItem index="#18">寄语ACM</MenuItem>
           <MenuItem index="#19" class="float-right">注册</MenuItem>
           <MenuItem index="#20" class="float-right">登录</MenuItem>
