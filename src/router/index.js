@@ -1,10 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import TopicList from '@/components/imustOj/topicList'
-import Solution from '@/components/imustOj/solutionList'
-import RankList from '@/components/imustOj/rankList'
-import ContestList from '@/components/imustOj/contestList'
-import ExperimentList from '@/components/imustOj/experimentList'
 
 Vue.use(Router)
 
